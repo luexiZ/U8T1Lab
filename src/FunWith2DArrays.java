@@ -23,6 +23,38 @@ public class FunWith2DArrays {
             System.out.println(leftDown);
             System.out.println(rightDown);
 //        }
+    }
+    public static double average(int[][] list)
+    {
+        double sum = 0;
 
+        for(int[] row : list)
+        {
+            for(int element : row)
+            {
+                sum += element;
+            }
+        }
+        return sum / (list.length * list[0].length);
+    }
+
+    public static int[] indexFound(String[][] arr, String target)
+    {
+        int[] location = new int[2];
+        location[0] = -1;
+        location[1] = -1;
+        for(int i = 0;i < arr.length; i++)
+        {
+            for(int j = 0; j < arr[i].length; j++)
+            {
+                if(arr[i][j].equals(target))
+                {
+                    location[0] = i;
+                    location[1] = j;
+                }
+            }
+        }
+
+        return location;
     }
 }

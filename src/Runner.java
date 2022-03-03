@@ -70,30 +70,33 @@ public class Runner
 //            System.out.println(Arrays.toString(row));
 //        }
 
-        String[][] word = {{"hi", "bye", "stuff", "go"},
-                {"time", "up", "you", "good"},
-                {"map", "low", "bow", "mom"}};
-        FunWith2DArrays.fourCorners(word);
+//        String[][] word = {{"hi", "bye", "stuff", "go"},
+//                {"time", "up", "you", "good"},
+//                {"map", "low", "bow", "mom"}};
+//        FunWith2DArrays.fourCorners(word);
+//
+//        String[][] word2 =
+//                {{"time", "up", "bye"},
+//                        {"hi", "hit", "up"},
+//                        {"map", "bam", "low"},
+//                        {"bow", "mom", "joy"}};
+//        FunWith2DArrays.fourCorners(word2);
+//
+//        String[][] word3 = {{"phone", "mouse", "keyboard"}};
+//        FunWith2DArrays.fourCorners(word3);
+//
+//        String[][] word4 = {{"cat"},
+//                {"dog"},
+//                {"hamster"},
+//                {"bird"}};
+//
+//        FunWith2DArrays.fourCorners(word4);
+//
+//        String[][] word5 = {{"time"}};
+//        FunWith2DArrays.fourCorners(word5);
 
-        String[][] word2 =
-                {{"time", "up", "bye"},
-                        {"hi", "hit", "up"},
-                        {"map", "bam", "low"},
-                        {"bow", "mom", "joy"}};
-        FunWith2DArrays.fourCorners(word2);
 
-        String[][] word3 = {{"phone", "mouse", "keyboard"}};
-        FunWith2DArrays.fourCorners(word3);
 
-        String[][] word4 = {{"cat"},
-                {"dog"},
-                {"hamster"},
-                {"bird"}};
-
-        FunWith2DArrays.fourCorners(word4);
-
-        String[][] word5 = {{"time"}};
-        FunWith2DArrays.fourCorners(word5);
 
 
 
